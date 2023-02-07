@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as b
 import telebot
 
 URL = 'https://www.anekdot.ru/last/good/'
-API_KEY = '6163660073:AAHyHTlu2pI2V6ELWXkjzdYVXgeAQXeZcok'
+API_KEY = 'XXX'
 def parser(url):
     r = requests.get(url)
     soup = b(r.text, 'html.parser')
